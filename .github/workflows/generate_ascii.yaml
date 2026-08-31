@@ -13,7 +13,7 @@ jobs:
         - name: Executing shell scripts
           run: |
             chmod +x ascii-script.sh
-            bash ascii-script.sh
+            ./ascii-script.sh
         
         - name: list Repo Files
           run: ls -lrta
