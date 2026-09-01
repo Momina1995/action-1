@@ -13,8 +13,8 @@ jobs:
 # job level env variables
     env:
         CONTAINER_REGISTRY: docker.io
-        runs-on: ubuntu-latest
-        steps:
+    runs-on: ubuntu-latest
+    steps:
             - name: Docker Build
               run: echo docker build -t $CONTAINER_REGISTRY/$DOCKER_USERNAME/$IMAGE_NAME:latest
 
